@@ -20,7 +20,7 @@ Both packages go in the `src/` folder of the same ROS 2 workspace:
 ros2_ws/
 └── src/
     ├── candle_ros2/             ← this folder (MAB motor package + controller)
-    └── ros2-mocap_optitrack/    ← clone from https://github.com/tud-phi/ros2-mocap_optitrack
+    └── ros2-mocap_optitrack/    ← clone from https://github.com/phi-lab-research/ros2-mocap_optitrack
 ```
 
 The mocap package is not copied here: clone it directly from its repository

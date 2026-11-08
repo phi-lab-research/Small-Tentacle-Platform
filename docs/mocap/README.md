@@ -6,7 +6,7 @@ ROS 2 topics.
 
 ## Main reference
 
-**[tud-phi/ros2-mocap_optitrack](https://github.com/tud-phi/ros2-mocap_optitrack)**:
+**[phi-lab-research/ros2-mocap_optitrack](https://github.com/phi-lab-research/ros2-mocap_optitrack)**:
 ROS 2 package for motion capture of soft robots with OptiTrack cameras.
 
 Follow that repository for network setup, build and launch. The rest of this page adds
@@ -40,7 +40,7 @@ Test with `ping 192.168.4.31`.
 
 ## 2. ROS 2 package
 
-Clone [ros2-mocap_optitrack](https://github.com/tud-phi/ros2-mocap_optitrack) into the
+Clone [ros2-mocap_optitrack](https://github.com/phi-lab-research/ros2-mocap_optitrack) into the
 `src/` folder of the ROS 2 workspace (`~/ros2_ws`, see [`code/`](../../code/README.md)) and set the Motive IP in
 `mocap_optitrack_client/config/natnetclient.yaml`.
 
