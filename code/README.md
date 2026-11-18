@@ -36,9 +36,18 @@ The mocap package is not copied here: clone it directly from its repository
 | `src/softrob_CCandCLIK.cpp` | Support: collocated control and CLIK |
 | `src/general_fcns.cpp` | Support: general math functions |
 | `src/md80_node.cpp` | MAB motor driver node (`candle_ros2_node`) |
+| `src/marker_ik_node.py` | State estimation node (Python): `q` and `qdot` from the markers |
 | `include/` | Headers for the files above |
 | `candle/` | MAB CANdle library |
 | `msg/`, `srv/` | MAB motor messages and services |
+
+Next to `candle_ros2/` in `code/`:
+
+| File | Role |
+|---|---|
+| `state_estimation/marker_ik.py` | Marker IK solver and `qdot` estimators used by the node |
+| `model/small_tentacle_platform_soromox.py` | soromox model of the arm |
+| `pyproject.toml`, `uv.lock` | Python environment of the state estimation node |
 
 ## Build
 
