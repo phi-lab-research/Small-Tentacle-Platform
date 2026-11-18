@@ -91,4 +91,11 @@ install(TARGETS common_functions
   DESTINATION lib/${PROJECT_NAME}
 )
 
+# marker_ik_node: Python state estimator, installed with the modules it imports
+install(PROGRAMS src/marker_ik_node.py DESTINATION lib/${PROJECT_NAME})
+install(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/../state_estimation ${CMAKE_CURRENT_SOURCE_DIR}/../model
+  DESTINATION lib/${PROJECT_NAME}
+  PATTERN "__pycache__" EXCLUDE
+)
+
 ament_package()

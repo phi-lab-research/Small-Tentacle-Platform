@@ -1,0 +1,15 @@
+[project]
+name = "small-tentacle-platform-state-estimation"
+version = "0.1.0"
+requires-python = "==3.12.*"
+dependencies = [
+  "jax==0.11.1",
+  "numpy==2.5.3",
+  "equinox==0.13.8",
+  "optimistix==0.1.0",
+  "soromox==0.4.1",
+  "pyyaml",
+]
+
+[tool.uv]
+package = false
